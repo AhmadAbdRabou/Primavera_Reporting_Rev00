@@ -1,0 +1,250 @@
+/* ****************************************************************************************************************** * 
+ * CSS Styles For Primavera Schema Documentation HTML File
+ * ****************************************************************************************************************** */
+
+BODY 
+{
+  font-family: Arial, sans-serif;
+  padding: 1em;
+}
+
+
+TABLE
+{
+  margin-top: .5em;
+}
+
+TABLE.SchemaColumn
+{
+  margin-left: 1.1em;
+}
+TABLE.SchemaIndex
+{
+  margin-left: 1.1em;
+}
+TABLE.SchemaTrigger
+{
+  margin-left: 1.1em;
+}
+TABLE.SchemaConstraint
+{
+  margin-left: 1.1em;
+}
+TABLE.SchemaReference
+{
+  margin-left: 1.1em;
+}
+
+TABLE.FormatTable
+{
+  border: 0 none  #223100;
+  border-collapse: collapse;
+  background: #ECE5B6;
+  width:      96%;
+}
+
+TABLE.SchemaTable
+{
+  border: 0 none  #223100;
+  border-collapse: collapse;
+  width:      40%;
+}
+
+DIV.SchemaTableNameDetailRow 
+{
+  margin-top: 1em;
+  font-size: larger;
+  font-weight: bold;
+}
+
+DIV.DetailGroup 
+{
+}
+
+SPAN.DetailTitle 
+{
+}
+
+TR.DetailTitleRow1
+{
+  background: #81BEF7;
+}
+TR.DetailTitleRow2
+{
+  background: #CEE3F6;
+}
+
+TH.SchemaColumnTitleOFF
+{
+  background: #ECD672;
+}
+
+TH.SchemaColumnHeaderOFF
+{
+  background: #ECE5B6;
+}
+
+TR.SchemaTableHeaderRow
+{
+  background: #81BEF7;
+}
+
+TR.SchemaTableNameDetailRow
+{
+  background: #ECD672;
+}
+
+TD.SchemaTableNameData 
+{
+
+}
+
+TR:nth-child(n2)
+{
+  background: orange;
+}
+
+TR.HeaderRow, TR.DetailLabel, TR.SummaryLabel, TR.ExceptionLabel
+{
+  background: #C0C8D0;
+}
+
+TR.DetailRowEven TD
+{
+  background: #FFF4E8;
+}
+
+TABLE.HeaderTable
+{
+  border: 1px solid #223100;
+}
+
+TD.HeaderLabel
+{
+  color: black;
+}
+
+TH_OFF
+{
+  border-top:    2px solid #004300;
+  border-bottom: 2px solid #004300;
+}
+
+TR:first-child
+{
+  border-top:    0px solid #004300;
+}
+
+TD.HeaderLabel
+{
+    font-weight: bold;
+}
+
+TD.HeaderLabel, TD.HeaderValue
+{
+  padding: 0.4em;
+  padding-left: 10px;
+  color: #000038;
+}
+
+TD.HeaderValue
+{
+}
+
+TR.DetailLabel, TR.SummaryLabel, TR.ExceptionLabel
+{
+}
+
+.ExceptionLabelRightAlign, .DetailLabelRightAlign, .SummaryLabelRightAlign
+{
+  text-align: right;
+}
+
+.ExceptionValueRightAlign, .DetailValueRightAlign, .SummaryValueRightAlign
+{
+  text-align: right;
+}
+
+H3
+{
+  color: #23123B;
+  border-bottom: 2px solid #223100;
+}
+
+TH
+{
+  padding-left:  10px;
+  padding-right: 1em;
+  text-align: left;
+}
+
+TD
+{
+  padding-left:  10px;
+  padding-right: 1em;
+  white-space:nowrap;
+}
+
+TD.ExceptionMsgFail, TR.ExceptionRowFail TD
+{
+  background: #F0C0C0;
+}
+
+TD.ExceptionMsgWarn, TR.ExceptionRowWarn TD
+{
+  background: #E8E0A0;
+}
+
+TD.ExceptionMsgFail
+{
+  border-bottom:  1px solid #D0B0B0;
+}
+
+TD.ExceptionMsgWarn
+{
+  border-bottom:  1px solid #C0C0B0;
+}
+
+TD.ExceptionMsgFail, TD.ExceptionMsgWarn
+{
+  padding-top:    0.5em;
+  padding-bottom: 0.5em;
+  white-space:normal;
+}
+
+TD.ExceptionValue
+{
+  padding-bottom: 0.25em;
+  padding-top:    0.25em;
+}
+
+TR.SummaryRowPass TD, TR.HeaderTablePass TD
+{
+  background: #E0FFD8;
+}
+
+TR.SummaryRowWarn TD, TR.HeaderTableWarn TD
+{
+  background: #E8E0A0;
+}
+
+TR.SummaryRowFail TD, TR.HeaderTableFail TD
+{
+  background: #F0C0C0;
+}
+
+TR.SchemaColumnRowNotNull 
+{
+  font-weight: bold;
+}
+
+TD.SourceRow
+{
+  padding: 0.25em;
+}
+
+TD.SourceNameData
+{
+
+    font-weight: bold;
+}
